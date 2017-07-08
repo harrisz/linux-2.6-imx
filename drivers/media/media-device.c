@@ -40,6 +40,7 @@ static int media_device_open(struct file *filp)
 
 static int media_device_close(struct file *filp)
 {
+	printk("aaaa\n");
 	return 0;
 }
 
